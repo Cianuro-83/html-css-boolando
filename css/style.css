@@ -50,7 +50,7 @@ FLEX RULES
 .col-s {
   flex-basis: 32%;
   background-color: greenyellow;
-  min-height: 500px;
+  max-height: 500px;
 }
 
 /**************************
@@ -69,10 +69,30 @@ MAIN RULES
 }
 .s1,
 .s2 {
-  padding: 25px 0;
+  padding: 10px 0;
+}
+.card p {
+  padding: 3px 0;
 }
 img {
   max-height: 500px;
+}
+.marca {
+  font-weight: lighter;
+  font-size: 10px;
+}
+.prodotto {
+  font-weight: bolder;
+  font-size: 15px;
+}
+.sconto {
+  color: red;
+  font-weight: bolder;
+  font-size: 11px;
+}
+strike {
+  color: black;
+  font-weight: lighter;
 }
 /**************************
 FOOTER RULES
