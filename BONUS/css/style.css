@@ -175,12 +175,15 @@ FOOTER RULES
 .social-icons {
   padding-top: 10px;
 }
-.sn {
-  line-height: 2em;
-  padding: 0 5px;
-  position: relative;
-  right: 20px;
-  margin: none;
+
+.soc {
+  background-color: white;
+  width: 25px;
+  margin: 5px;
+}
+.follow {
+  text-align: center;
+  padding-bottom: 1em;
 }
 /**************************
 HOVER CAMBIO IMMAGINE RULES
