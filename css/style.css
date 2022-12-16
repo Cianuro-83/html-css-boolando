@@ -53,7 +53,6 @@ FLEX RULES
 
 .col-s {
   flex-basis: 32%;
-  background-color: greenyellow;
   max-height: 500px;
 }
 
@@ -109,9 +108,20 @@ strike {
 }
 .saldo {
   background-color: #fb2201;
+  position: absolute;
+  bottom: 100px;
 }
 .sosten {
   background-color: #008002;
+  position: absolute;
+  bottom: 100px;
+  left: 70px;
+}
+.sos {
+  background-color: #008002;
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
 }
 .cuore {
   color: black;
