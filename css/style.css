@@ -6,7 +6,10 @@ RESET RULES
   margin: 0;
   box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+  color: white;
+}
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,20 +58,34 @@ FLEX RULES
   flex-basis: 32%;
   max-height: 500px;
 }
+.col100 {
+  flex-basis: 100px;
+}
 
 /**************************
 HEADER RULES
   ***************************/
+li {
+  display: inline;
+  font-size: 15px;
+  font-weight: bolder;
+}
 .header-bg {
   background-color: #fb6900;
   color: white;
-  padding: 25px 0;
+  padding: 15px 0;
+}
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 /**************************
 MAIN RULES
   ***************************/
 .main-bg {
   background-color: #ffffff;
+  padding-top: 100px;
 }
 .s1,
 .s2 {
