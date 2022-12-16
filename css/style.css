@@ -28,14 +28,23 @@ FLEX RULES
 .row {
   display: flex;
 }
+.main-header .row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-footer .row {
+  align-items: flex-start;
+  justify-content: space-between;
+}
 
 /**************************
 HEADER RULES
   ***************************/
 .header-bg {
   background-color: #fb6900;
-  min-height: 50px;
   color: white;
+  padding: 25px;
 }
 /**************************
 MAIN RULES
@@ -49,8 +58,8 @@ FOOTER RULES
   ***************************/
 .footer-bg {
   background-color: #1a1a1a;
-  min-height: 100px;
   color: white;
+  padding: 25px;
 }
 /**************************
 DEBUG RULES
