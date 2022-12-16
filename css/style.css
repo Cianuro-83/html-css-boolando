@@ -158,6 +158,30 @@ FOOTER RULES
   color: white;
   padding: 25px 0;
 }
+.brand {
+  font-size: 15px;
+  font-weight: bolder;
+}
+.privacy {
+  font-size: 10px;
+}
+.priv-space {
+  padding: 0 5px;
+}
+
+.follow {
+  font-size: 10px;
+}
+.social-icons {
+  padding-top: 10px;
+}
+.sn {
+  line-height: 2em;
+  padding: 0 5px;
+  position: relative;
+  right: 20px;
+  margin: none;
+}
 /**************************
 DEBUG RULES
   ***************************/
