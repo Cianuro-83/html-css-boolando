@@ -37,6 +37,17 @@ FLEX RULES
   align-items: flex-start;
   justify-content: space-between;
 }
+.s1 .row,
+.s2 .row {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col-s {
+  flex-basis: 32%;
+  background-color: greenyellow;
+  min-height: 500px;
+}
 
 /**************************
 HEADER RULES
@@ -44,14 +55,17 @@ HEADER RULES
 .header-bg {
   background-color: #fb6900;
   color: white;
-  padding: 25px;
+  padding: 25px 0;
 }
 /**************************
 MAIN RULES
   ***************************/
 .main-bg {
   background-color: #ffffff;
-  min-height: 100px;
+}
+.s1,
+.s2 {
+  padding: 25px 0;
 }
 /**************************
 FOOTER RULES
@@ -59,7 +73,7 @@ FOOTER RULES
 .footer-bg {
   background-color: #1a1a1a;
   color: white;
-  padding: 25px;
+  padding: 25px 0;
 }
 /**************************
 DEBUG RULES
